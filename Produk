@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deskripsi Produk</title>
+    <style>
+        /* Reset dasar */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Gaya untuk header */
+        header {
+            background-color: #f737cd;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Gaya untuk konten utama */
+        main {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Gaya untuk produk */
+        .produk {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .produk img {
+            max-width: 100%; /* Memastikan gambar tidak melebihi lebar kontainer */
+            height: auto; /* Menjaga rasio aspek gambar */
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .harga {
+            font-size: 24px;
+            color: #f737cd;
+            margin: 15px 0;
+        }
+
+        /* Gaya untuk tombol */
+        .button {
+            display: inline-block;
+            background-color: #f737cd;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #d628a0;
+        }
+
+        /* Gaya untuk footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Gaya untuk paragraf */
+        p {
+            line-height: 1.6;
+            color: #333;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deskripsi Produk</h1>
+    </header>
+
+    <main>
+        <div class="produk">
+            <img src="img/Gambar Produk .jpg" alt="Bunga Latex">
+            <h2>Bunga Latex</h2>
+            <p>
+                Tanaman bunga latex adalah bunga hias yang terbuat dari bahan latex sintetis, 
+                yang meniru bentuk dan tekstur bunga asli. Karena dibuat dari latex, bunga ini 
+                memiliki tampilan yang sangat realistis dengan kelopak yang lentur, lembut, dan 
+                elastis, menyerupai bunga alami.
+            </p>
+            <p>
+                Bunga latex sering digunakan sebagai dekorasi karena keawetannya yang tinggi dan 
+                kemiripannya dengan bunga hidup, memberikan kesan segar di ruangan tanpa perawatan 
+                khusus seperti penyiraman atau pemupukan. Jenis bunga latex sangat bervariasi, 
+                mulai dari mawar, anggrek, tulip, hingga lili, sehingga banyak pilihan bagi 
+                penggemar dekorasi rumah atau acara seperti pernikahan.
+            </p>
+            <p>
+                Selain itu, bunga latex juga lebih tahan lama dibandingkan bunga asli atau bunga 
+                plastik biasa, dan cenderung tidak berubah warna atau bentuk meski disimpan dalam 
+                jangka waktu yang lama.
+            </p>
+            
+            <a href="index.html" class="button">KEMBALI</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toko Online. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informasi Rekening Penjual</title>
+    <style>
+        /* Reset dasar */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Gaya untuk header */
+        header {
+            background-color: #f737cd;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Gaya untuk konten utama */
+        main {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Gaya untuk informasi penjual */
+        .info-penjual {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .info-penjual h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .info-penjual p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .info-penjual strong {
+            color: #f737cd;
+        }
+
+        /* Gaya untuk footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        /* Gaya untuk tombol */
+        .button {
+            display: inline-block;
+            background-color: #f737cd;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #d628a0;
+        }
+
+        /* Gaya untuk logo bank */
+        .logo-bank {
+            max-width: 150px; /* Atur ukuran maksimum logo */
+            margin-bottom: 20px; /* Jarak di bawah logo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Informasi Rekening Penjual</h1>
+    </header>
+
+    <main>
+        <div class="info-penjual">
+            <img src="img/Bank Mandiri.jpg" alt="Logo Bank Mandiri" class="logo-bank">
+            <h2>Detail Rekening</h2>
+            <p>Silakan gunakan nomor rekening berikut untuk melakukan pembayaran:</p>
+            <p><strong>Bank:</strong> Bank Mandiri</p>
+            <p><strong>Nomor Rekening:</strong> 1210012673145</p>
+            <p><strong>Nama Pemilik Rekening:</strong> INGGIT EKA PRAMESTI</p>
+            <a href="https://wa.me/083873017922" class="button">SELESAI</a> <a href="index.html" class="button">BATAL</a>
+            <p>Silakan kirim bukti pembayaran dengan klik tombol <a href="https://wa.me/083873017922" class="">SELESAI</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Belanja Online. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>

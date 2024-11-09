@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunga Indah Latex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info, .social-media, .operational-hours, .products-services, .additional-services {
+            margin-bottom: 20px;
+        }
+        .social-media a {
+            margin-right: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bunga Indah Latex</h1>
+    <h2>Penjualan Bunga Latex dan Dekorasi Hias</h2>
+</header>
+
+<main>
+    <div class="social-media">
+        <h3>Media Sosial</h3>
+        <p>
+            <strong>Instagram:</strong> <a href="https://www.instagram.com/bungalatxindah" target="_blank">@bungalatxindah</a><br>
+            <strong>Facebook:</strong> <a href="https://www.facebook.com/BungaLatexIndah" target="_blank">Bunga Latex Indah</a>
+        </p>
+    </div>
+
+    <div class="operational-hours">
+        <h3>Jam Buka</h3>
+        <p><strong>Senin - Sabtu:</strong> 09:00 - 23:00</p>
+        <p><strong>Minggu:</strong> 10:00 - 22:00</p>
+    </div>
+
+    <div class="contact-info">
+        <h3>Informasi Kontak</h3>
+        <p><strong>Alamat:</strong> Jl. Pd. Asri Indah Blk. A No.7, RW.4, Sungai Panas, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29444, Indonesia</p>
+        <p><strong>Telepon/WhatsApp:</strong> +62 838 7301 7922</p>
+        <p><strong>Email:</strong> <a href="mailto:info@bungalatxindah.com">info@bungalatxindah.com</a></p>
+    </div>
+
+    <div class="products-services">
+        <h3>Produk dan Layanan</h3>
+        <ul>
+            <li><strong>Bunga Latex:</strong> Berbagai jenis bunga latex seperti mawar, lili, anggrek, dan tulip.</li>
+            <li><strong>Dekorasi Acara:</strong> Dekorasi bunga untuk acara pernikahan, ulang tahun, dan acara perusahaan.</li>
+            <li><strong>Paket Dekorasi:</strong> Paket khusus untuk dekorasi rumah, kantor, dan toko.</li>
+        </ul>
+    </div>
+
+    <div class="additional-services">
+        <h3>Layanan Tambahan</h3>
+        <ul>
+            <li>Pengiriman ke seluruh Indonesia</li>
+            <li>Diskon untuk pembelian dalam jumlah besar</li>
+            <li>Konsultasi gratis untuk dekorasi acara</li>
+        </ul>
+        <a href="index.html" class="button">KEMBALI</a>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Bunga Indah Latex. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
+        
+
